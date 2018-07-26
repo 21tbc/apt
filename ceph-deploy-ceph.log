@@ -1,0 +1,1074 @@
+[2017-10-14 17:15:04,257][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:15:04,257][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install 172.16.1.204
+[2017-10-14 17:15:04,257][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:15:04,257][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7f0130d8bcb0>
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:15:04,258][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7f01311d18c0>
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  host                          : ['172.16.1.204']
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:15:04,259][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:15:04,260][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:15:04,260][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts 172.16.1.204
+[2017-10-14 17:15:04,260][ceph_deploy.install][DEBUG ] Detecting platform for host 172.16.1.204 ...
+[2017-10-14 17:15:04,287][ceph_deploy][ERROR ] RuntimeError: connecting to host: 172.16.1.204 resulted in errors: HostNotFound 172.16.1.204
+
+[2017-10-14 17:16:18,693][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:16:18,693][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install test
+[2017-10-14 17:16:18,693][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:16:18,693][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:16:18,693][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7fb64b1e8cb0>
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7fb64b62e8c0>
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:16:18,694][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  host                          : ['test']
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:16:18,695][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:16:18,696][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:16:18,696][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:16:18,696][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:16:18,696][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:16:18,696][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts test
+[2017-10-14 17:16:18,696][ceph_deploy.install][DEBUG ] Detecting platform for host test ...
+[2017-10-14 17:16:27,022][test][DEBUG ] connection detected need for sudo
+[2017-10-14 17:16:32,587][test][DEBUG ] connected to host: test 
+[2017-10-14 17:16:32,588][test][DEBUG ] detect platform information from remote host
+[2017-10-14 17:16:32,739][test][DEBUG ] detect machine type
+[2017-10-14 17:16:32,744][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2017-10-14 17:16:32,744][test][INFO  ] installing Ceph on test
+[2017-10-14 17:16:32,744][test][INFO  ] using custom repository location: http://cn.ceph.com/debian-kraken
+[2017-10-14 17:16:32,746][test][INFO  ] Running command: sudo wget -O release.asc http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:16:32,792][test][WARNING] --2017-10-14 17:16:33--  http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:16:33,758][test][WARNING] Resolving cn.ceph.com (cn.ceph.com)... 37.218.240.20, 2a00:c6c0:1:1::1
+[2017-10-14 17:16:33,872][test][WARNING] Connecting to cn.ceph.com (cn.ceph.com)|37.218.240.20|:80... connected.
+[2017-10-14 17:16:34,036][test][WARNING] HTTP request sent, awaiting response... 200 OK
+[2017-10-14 17:16:34,036][test][WARNING] Length: 1645 (1.6K) [text/plain]
+[2017-10-14 17:16:34,036][test][WARNING] Saving to: 'release.asc'
+[2017-10-14 17:16:34,036][test][WARNING] 
+[2017-10-14 17:16:34,036][test][WARNING]      0K .                                                     100%  164M=0s
+[2017-10-14 17:16:34,036][test][WARNING] 
+[2017-10-14 17:16:34,037][test][WARNING] 2017-10-14 17:16:35 (164 MB/s) - 'release.asc' saved [1645/1645]
+[2017-10-14 17:16:34,037][test][WARNING] 
+[2017-10-14 17:16:34,039][test][INFO  ] Running command: sudo apt-key add release.asc
+[2017-10-14 17:16:34,308][test][DEBUG ] OK
+[2017-10-14 17:16:34,310][test][DEBUG ] add deb repo to /etc/apt/sources.list.d/
+[2017-10-14 17:16:34,315][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q update
+[2017-10-14 17:16:34,685][test][DEBUG ] Hit:1 http://mirrors.aliyun.com/ubuntu xenial InRelease
+[2017-10-14 17:16:34,685][test][DEBUG ] Hit:2 http://mirrors.aliyun.com/ubuntu xenial-updates InRelease
+[2017-10-14 17:16:34,685][test][DEBUG ] Hit:3 http://mirrors.aliyun.com/ubuntu xenial-backports InRelease
+[2017-10-14 17:16:34,685][test][DEBUG ] Hit:4 http://mirrors.aliyun.com/ubuntu xenial-security InRelease
+[2017-10-14 17:16:34,950][test][DEBUG ] Get:5 http://cn.ceph.com/debian-kraken xenial InRelease [8504 B]
+[2017-10-14 17:16:35,114][test][DEBUG ] Hit:6 http://archive.canonical.com/ubuntu xenial InRelease
+[2017-10-14 17:16:35,129][test][DEBUG ] Hit:7 http://archive.ubuntu.com/ubuntu xenial InRelease
+[2017-10-14 17:16:35,193][test][DEBUG ] Get:8 http://cn.ceph.com/debian-kraken xenial/main amd64 Packages [11.7 kB]
+[2017-10-14 17:16:35,357][test][DEBUG ] Get:9 http://cn.ceph.com/debian-kraken xenial/main i386 Packages [773 B]
+[2017-10-14 17:16:39,128][test][DEBUG ] Fetched 21.0 kB in 0s (22.0 kB/s)
+[2017-10-14 17:16:41,296][test][DEBUG ] Reading package lists...
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,410][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,411][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,411][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:16:41,415][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+[2017-10-14 17:16:41,485][test][DEBUG ] Reading package lists...
+[2017-10-14 17:16:41,849][test][DEBUG ] Building dependency tree...
+[2017-10-14 17:16:41,849][test][DEBUG ] Reading state information...
+[2017-10-14 17:16:42,063][test][DEBUG ] The following packages were automatically installed and are no longer required:
+[2017-10-14 17:16:42,064][test][DEBUG ]   libboost-iostreams1.58.0 libboost-random1.58.0 libboost-system1.58.0
+[2017-10-14 17:16:42,064][test][DEBUG ]   libboost-thread1.58.0
+[2017-10-14 17:16:42,064][test][DEBUG ] Use 'sudo apt autoremove' to remove them.
+[2017-10-14 17:16:42,064][test][DEBUG ] The following additional packages will be installed:
+[2017-10-14 17:16:42,064][test][DEBUG ]   binutils ceph-base ceph-common ceph-mgr gdisk libbabeltrace-ctf1
+[2017-10-14 17:16:42,064][test][DEBUG ]   libbabeltrace1 libboost-python1.58.0 libcephfs2 libfcgi0ldbl
+[2017-10-14 17:16:42,064][test][DEBUG ]   libgoogle-perftools4 libjs-jquery libleveldb1v5 liblttng-ust-ctl2
+[2017-10-14 17:16:42,064][test][DEBUG ]   liblttng-ust0 libpython2.7 librados2 libradosstriper1 librbd1 librgw2
+[2017-10-14 17:16:42,065][test][DEBUG ]   libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-cephfs
+[2017-10-14 17:16:42,065][test][DEBUG ]   python-chardet python-flask python-itsdangerous python-jinja2
+[2017-10-14 17:16:42,065][test][DEBUG ]   python-markupsafe python-pkg-resources python-rados python-rbd
+[2017-10-14 17:16:42,065][test][DEBUG ]   python-requests python-rgw python-six python-urllib3 python-werkzeug
+[2017-10-14 17:16:42,065][test][DEBUG ] Suggested packages:
+[2017-10-14 17:16:42,065][test][DEBUG ]   binutils-doc python-flask-doc python-jinja2-doc python-setuptools
+[2017-10-14 17:16:42,065][test][DEBUG ]   python-ndg-httpsclient python-openssl python-pyasn1 python-ntlm ipython
+[2017-10-14 17:16:42,065][test][DEBUG ]   python-genshi python-lxml python-greenlet python-redis python-pylibmc
+[2017-10-14 17:16:42,065][test][DEBUG ]   | python-memcache python-werkzeug-doc
+[2017-10-14 17:16:42,066][test][DEBUG ] Recommended packages:
+[2017-10-14 17:16:42,066][test][DEBUG ]   ntp | time-daemon ceph-fuse javascript-common python-blinker
+[2017-10-14 17:16:42,066][test][DEBUG ]   python-ndg-httpsclient python-openssl python-pyasn1 python-pyinotify
+[2017-10-14 17:16:42,066][test][DEBUG ] The following NEW packages will be installed:
+[2017-10-14 17:16:42,066][test][DEBUG ]   binutils ceph ceph-base ceph-common ceph-mds ceph-mgr ceph-mon ceph-osd
+[2017-10-14 17:16:42,066][test][DEBUG ]   gdisk libbabeltrace-ctf1 libbabeltrace1 libboost-python1.58.0 libcephfs2
+[2017-10-14 17:16:42,066][test][DEBUG ]   libfcgi0ldbl libgoogle-perftools4 libjs-jquery libleveldb1v5
+[2017-10-14 17:16:42,066][test][DEBUG ]   liblttng-ust-ctl2 liblttng-ust0 libpython2.7 libradosstriper1 librgw2
+[2017-10-14 17:16:42,066][test][DEBUG ]   libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-cephfs
+[2017-10-14 17:16:42,067][test][DEBUG ]   python-chardet python-flask python-itsdangerous python-jinja2
+[2017-10-14 17:16:42,067][test][DEBUG ]   python-markupsafe python-pkg-resources python-rados python-rbd
+[2017-10-14 17:16:42,067][test][DEBUG ]   python-requests python-rgw python-six python-urllib3 python-werkzeug radosgw
+[2017-10-14 17:16:42,067][test][DEBUG ] The following packages will be upgraded:
+[2017-10-14 17:16:42,067][test][DEBUG ]   librados2 librbd1
+[2017-10-14 17:16:42,882][test][DEBUG ] 2 upgraded, 41 newly installed, 0 to remove and 57 not upgraded.
+[2017-10-14 17:16:42,882][test][DEBUG ] Need to get 94.1 MB of archives.
+[2017-10-14 17:16:42,883][test][DEBUG ] After this operation, 499 MB of additional disk space will be used.
+[2017-10-14 17:16:42,883][test][DEBUG ] Get:1 http://cn.ceph.com/debian-kraken xenial/main amd64 librbd1 amd64 11.2.1-1xenial [1314 kB]
+[2017-10-14 17:16:43,598][test][DEBUG ] Get:2 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 binutils amd64 2.26.1-1ubuntu1~16.04.5 [2311 kB]
+[2017-10-14 17:16:43,962][test][DEBUG ] Get:3 http://mirrors.aliyun.com/ubuntu xenial/universe amd64 liburcu4 amd64 0.9.1-3 [47.3 kB]
+[2017-10-14 17:16:43,978][test][DEBUG ] Get:4 http://mirrors.aliyun.com/ubuntu xenial/universe amd64 liblttng-ust-ctl2 amd64 2.7.1-1 [72.2 kB]
+[2017-10-14 17:16:44,042][test][DEBUG ] Get:5 http://mirrors.aliyun.com/ubuntu xenial/universe amd64 liblttng-ust0 amd64 2.7.1-1 [127 kB]
+[2017-10-14 17:16:44,042][test][DEBUG ] Get:6 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libbabeltrace1 amd64 1.3.2-1 [34.7 kB]
+[2017-10-14 17:16:44,042][test][DEBUG ] Get:7 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libbabeltrace-ctf1 amd64 1.3.2-1 [88.3 kB]
+[2017-10-14 17:16:44,074][test][DEBUG ] Get:8 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 libtcmalloc-minimal4 amd64 2.4-0ubuntu5.16.04.1 [105 kB]
+[2017-10-14 17:16:44,089][test][DEBUG ] Get:9 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libunwind8 amd64 1.1-4.1 [46.5 kB]
+[2017-10-14 17:16:44,093][test][DEBUG ] Get:10 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 libgoogle-perftools4 amd64 2.4-0ubuntu5.16.04.1 [187 kB]
+[2017-10-14 17:16:44,108][test][DEBUG ] Get:11 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 libpython2.7 amd64 2.7.12-1ubuntu0~16.04.1 [1070 kB]
+[2017-10-14 17:16:44,272][test][DEBUG ] Get:12 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-six all 1.10.0-3 [10.9 kB]
+[2017-10-14 17:16:44,280][test][DEBUG ] Get:13 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 python-urllib3 all 1.13.1-2ubuntu0.16.04.1 [57.2 kB]
+[2017-10-14 17:16:44,281][test][DEBUG ] Get:14 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-pkg-resources all 20.7.0-1 [108 kB]
+[2017-10-14 17:16:44,345][test][DEBUG ] Get:15 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-chardet all 2.3.0-2 [96.3 kB]
+[2017-10-14 17:16:44,353][test][DEBUG ] Get:16 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-requests all 2.9.1-3 [55.6 kB]
+[2017-10-14 17:16:44,360][test][DEBUG ] Get:17 http://mirrors.aliyun.com/ubuntu xenial/main amd64 gdisk amd64 1.0.1-1build1 [194 kB]
+[2017-10-14 17:16:44,424][test][DEBUG ] Get:18 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-itsdangerous all 0.24+dfsg1-1 [12.0 kB]
+[2017-10-14 17:16:44,427][test][DEBUG ] Get:19 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-markupsafe amd64 0.23-2build2 [15.5 kB]
+[2017-10-14 17:16:44,491][test][DEBUG ] Get:20 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-jinja2 all 2.8-1 [109 kB]
+[2017-10-14 17:16:44,491][test][DEBUG ] Get:21 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libjs-jquery all 1.11.3+dfsg-4 [161 kB]
+[2017-10-14 17:16:44,507][test][DEBUG ] Get:22 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-werkzeug all 0.10.4+dfsg1-1ubuntu1 [162 kB]
+[2017-10-14 17:16:44,571][test][DEBUG ] Get:23 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-flask all 0.10.1-2build2 [51.8 kB]
+[2017-10-14 17:16:44,603][test][DEBUG ] Get:24 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libsnappy1v5 amd64 1.1.3-2 [16.0 kB]
+[2017-10-14 17:16:44,666][test][DEBUG ] Get:25 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libleveldb1v5 amd64 1.18-5 [132 kB]
+[2017-10-14 17:16:44,698][test][DEBUG ] Get:26 http://mirrors.aliyun.com/ubuntu xenial-updates/universe amd64 libboost-python1.58.0 amd64 1.58.0+dfsg-5ubuntu3.1 [120 kB]
+[2017-10-14 17:16:44,762][test][DEBUG ] Get:27 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libfcgi0ldbl amd64 2.4.0-8.3 [161 kB]
+[2017-10-14 17:17:42,787][test][DEBUG ] Get:28 http://cn.ceph.com/debian-kraken xenial/main amd64 librados2 amd64 11.2.1-1xenial [1646 kB]
+[2017-10-14 17:18:48,578][test][DEBUG ] Get:29 http://cn.ceph.com/debian-kraken xenial/main amd64 libcephfs2 amd64 11.2.1-1xenial [1742 kB]
+[2017-10-14 17:20:24,377][test][DEBUG ] Get:30 http://cn.ceph.com/debian-kraken xenial/main amd64 libradosstriper1 amd64 11.2.1-1xenial [1628 kB]
+[2017-10-14 17:21:14,934][ceph_deploy][ERROR ] KeyboardInterrupt
+
+[2017-10-14 17:24:05,424][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install test
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7f45eba9acb0>
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:24:05,425][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7f45ebee08c0>
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  host                          : ['test']
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:24:05,426][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:24:05,427][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:24:05,428][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts test
+[2017-10-14 17:24:05,428][ceph_deploy.install][DEBUG ] Detecting platform for host test ...
+[2017-10-14 17:24:27,842][test][DEBUG ] connection detected need for sudo
+[2017-10-14 17:24:37,043][test][DEBUG ] connected to host: test 
+[2017-10-14 17:24:37,044][test][DEBUG ] detect platform information from remote host
+[2017-10-14 17:24:37,098][test][DEBUG ] detect machine type
+[2017-10-14 17:24:37,105][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2017-10-14 17:24:37,105][test][INFO  ] installing Ceph on test
+[2017-10-14 17:24:37,105][test][INFO  ] using custom repository location: http://cn.ceph.com/debian-kraken
+[2017-10-14 17:24:37,107][test][INFO  ] Running command: sudo wget -O release.asc http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:24:37,149][test][WARNING] --2017-10-14 17:24:36--  http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:24:38,015][test][WARNING] Resolving cn.ceph.com (cn.ceph.com)... 37.218.240.20, 2a00:c6c0:1:1::1
+[2017-10-14 17:24:38,129][test][WARNING] Connecting to cn.ceph.com (cn.ceph.com)|37.218.240.20|:80... connected.
+[2017-10-14 17:24:38,693][test][WARNING] HTTP request sent, awaiting response... 200 OK
+[2017-10-14 17:24:38,693][test][WARNING] Length: 1645 (1.6K) [text/plain]
+[2017-10-14 17:24:38,694][test][WARNING] Saving to: 'release.asc'
+[2017-10-14 17:24:38,694][test][WARNING] 
+[2017-10-14 17:24:38,694][test][WARNING]      0K .                                                     100%  284M=0s
+[2017-10-14 17:24:38,694][test][WARNING] 
+[2017-10-14 17:24:38,694][test][WARNING] 2017-10-14 17:24:37 (284 MB/s) - 'release.asc' saved [1645/1645]
+[2017-10-14 17:24:38,694][test][WARNING] 
+[2017-10-14 17:24:38,696][test][INFO  ] Running command: sudo apt-key add release.asc
+[2017-10-14 17:24:38,966][test][DEBUG ] OK
+[2017-10-14 17:24:38,968][test][DEBUG ] add deb repo to /etc/apt/sources.list.d/
+[2017-10-14 17:24:38,978][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q update
+[2017-10-14 17:24:39,298][test][DEBUG ] Hit:1 http://mirrors.aliyun.com/ubuntu xenial InRelease
+[2017-10-14 17:24:39,298][test][DEBUG ] Hit:2 http://mirrors.aliyun.com/ubuntu xenial-updates InRelease
+[2017-10-14 17:24:39,298][test][DEBUG ] Hit:3 http://mirrors.aliyun.com/ubuntu xenial-backports InRelease
+[2017-10-14 17:24:39,298][test][DEBUG ] Hit:4 http://mirrors.aliyun.com/ubuntu xenial-security InRelease
+[2017-10-14 17:24:39,512][test][DEBUG ] Hit:5 http://cn.ceph.com/debian-kraken xenial InRelease
+[2017-10-14 17:24:39,626][test][DEBUG ] Hit:6 http://archive.canonical.com/ubuntu xenial InRelease
+[2017-10-14 17:24:40,942][test][DEBUG ] Hit:7 http://archive.ubuntu.com/ubuntu xenial InRelease
+[2017-10-14 17:24:44,212][test][DEBUG ] Reading package lists...
+[2017-10-14 17:24:44,244][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,244][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,244][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,245][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,245][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,245][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,245][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,245][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:24:44,248][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+[2017-10-14 17:24:44,317][test][DEBUG ] Reading package lists...
+[2017-10-14 17:24:44,681][test][DEBUG ] Building dependency tree...
+[2017-10-14 17:24:44,685][test][DEBUG ] Reading state information...
+[2017-10-14 17:24:44,949][test][DEBUG ] The following packages were automatically installed and are no longer required:
+[2017-10-14 17:24:44,949][test][DEBUG ]   libboost-iostreams1.58.0 libboost-random1.58.0 libboost-system1.58.0
+[2017-10-14 17:24:44,949][test][DEBUG ]   libboost-thread1.58.0
+[2017-10-14 17:24:44,949][test][DEBUG ] Use 'sudo apt autoremove' to remove them.
+[2017-10-14 17:24:44,950][test][DEBUG ] The following additional packages will be installed:
+[2017-10-14 17:24:44,950][test][DEBUG ]   binutils ceph-base ceph-common ceph-mgr gdisk libbabeltrace-ctf1
+[2017-10-14 17:24:44,950][test][DEBUG ]   libbabeltrace1 libboost-python1.58.0 libcephfs2 libfcgi0ldbl
+[2017-10-14 17:24:44,950][test][DEBUG ]   libgoogle-perftools4 libjs-jquery libleveldb1v5 liblttng-ust-ctl2
+[2017-10-14 17:24:44,950][test][DEBUG ]   liblttng-ust0 libpython2.7 librados2 libradosstriper1 librbd1 librgw2
+[2017-10-14 17:24:44,950][test][DEBUG ]   libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-cephfs
+[2017-10-14 17:24:44,950][test][DEBUG ]   python-chardet python-flask python-itsdangerous python-jinja2
+[2017-10-14 17:24:44,950][test][DEBUG ]   python-markupsafe python-pkg-resources python-rados python-rbd
+[2017-10-14 17:24:44,950][test][DEBUG ]   python-requests python-rgw python-six python-urllib3 python-werkzeug
+[2017-10-14 17:24:44,951][test][DEBUG ] Suggested packages:
+[2017-10-14 17:24:44,951][test][DEBUG ]   binutils-doc python-flask-doc python-jinja2-doc python-setuptools
+[2017-10-14 17:24:44,951][test][DEBUG ]   python-ndg-httpsclient python-openssl python-pyasn1 python-ntlm ipython
+[2017-10-14 17:24:44,951][test][DEBUG ]   python-genshi python-lxml python-greenlet python-redis python-pylibmc
+[2017-10-14 17:24:44,951][test][DEBUG ]   | python-memcache python-werkzeug-doc
+[2017-10-14 17:24:44,951][test][DEBUG ] Recommended packages:
+[2017-10-14 17:24:44,951][test][DEBUG ]   ntp | time-daemon ceph-fuse javascript-common python-blinker
+[2017-10-14 17:24:44,951][test][DEBUG ]   python-ndg-httpsclient python-openssl python-pyasn1 python-pyinotify
+[2017-10-14 17:24:44,951][test][DEBUG ] The following NEW packages will be installed:
+[2017-10-14 17:24:44,951][test][DEBUG ]   binutils ceph ceph-base ceph-common ceph-mds ceph-mgr ceph-mon ceph-osd
+[2017-10-14 17:24:44,952][test][DEBUG ]   gdisk libbabeltrace-ctf1 libbabeltrace1 libboost-python1.58.0 libcephfs2
+[2017-10-14 17:24:44,952][test][DEBUG ]   libfcgi0ldbl libgoogle-perftools4 libjs-jquery libleveldb1v5
+[2017-10-14 17:24:44,952][test][DEBUG ]   liblttng-ust-ctl2 liblttng-ust0 libpython2.7 libradosstriper1 librgw2
+[2017-10-14 17:24:44,952][test][DEBUG ]   libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-cephfs
+[2017-10-14 17:24:44,952][test][DEBUG ]   python-chardet python-flask python-itsdangerous python-jinja2
+[2017-10-14 17:24:44,952][test][DEBUG ]   python-markupsafe python-pkg-resources python-rados python-rbd
+[2017-10-14 17:24:44,952][test][DEBUG ]   python-requests python-rgw python-six python-urllib3 python-werkzeug radosgw
+[2017-10-14 17:24:44,952][test][DEBUG ] The following packages will be upgraded:
+[2017-10-14 17:24:44,952][test][DEBUG ]   librados2 librbd1
+[2017-10-14 17:24:45,667][test][DEBUG ] 2 upgraded, 41 newly installed, 0 to remove and 57 not upgraded.
+[2017-10-14 17:24:45,668][test][DEBUG ] Need to get 83.9 MB/94.1 MB of archives.
+[2017-10-14 17:24:45,668][test][DEBUG ] After this operation, 499 MB of additional disk space will be used.
+[2017-10-14 17:24:45,668][test][DEBUG ] Get:1 http://cn.ceph.com/debian-kraken xenial/main amd64 libradosstriper1 amd64 11.2.1-1xenial [1628 kB]
+[2017-10-14 17:25:39,985][test][DEBUG ] Get:2 http://cn.ceph.com/debian-kraken xenial/main amd64 python-rados amd64 11.2.1-1xenial [728 kB]
+[2017-10-14 17:26:03,292][test][DEBUG ] Get:3 http://cn.ceph.com/debian-kraken xenial/main amd64 python-cephfs amd64 11.2.1-1xenial [233 kB]
+[2017-10-14 17:26:12,123][test][DEBUG ] Get:4 http://cn.ceph.com/debian-kraken xenial/main amd64 python-rbd amd64 11.2.1-1xenial [356 kB]
+[2017-10-14 17:26:29,270][test][DEBUG ] Get:5 http://cn.ceph.com/debian-kraken xenial/main amd64 librgw2 amd64 11.2.1-1xenial [1963 kB]
+[2017-10-14 17:27:31,254][test][DEBUG ] Get:6 http://cn.ceph.com/debian-kraken xenial/main amd64 python-rgw amd64 11.2.1-1xenial [260 kB]
+[2017-10-14 17:27:45,144][test][DEBUG ] Get:7 http://cn.ceph.com/debian-kraken xenial/main amd64 ceph-common amd64 11.2.1-1xenial [16.6 MB]
+[2017-10-14 17:32:45,145][test][WARNING] No data was received after 300 seconds, disconnecting...
+[2017-10-14 17:32:45,149][test][INFO  ] Running command: sudo ceph --version
+[2017-10-14 17:32:45,234][test][ERROR ] Traceback (most recent call last):
+[2017-10-14 17:32:45,234][test][ERROR ]   File "/usr/lib/python2.7/dist-packages/ceph_deploy/lib/vendor/remoto/process.py", line 119, in run
+[2017-10-14 17:32:45,234][test][ERROR ]     reporting(conn, result, timeout)
+[2017-10-14 17:32:45,235][test][ERROR ]   File "/usr/lib/python2.7/dist-packages/ceph_deploy/lib/vendor/remoto/log.py", line 13, in reporting
+[2017-10-14 17:32:45,235][test][ERROR ]     received = result.receive(timeout)
+[2017-10-14 17:32:45,235][test][ERROR ]   File "/usr/lib/python2.7/dist-packages/ceph_deploy/lib/vendor/remoto/lib/vendor/execnet/gateway_base.py", line 704, in receive
+[2017-10-14 17:32:45,235][test][ERROR ]     raise self._getremoteerror() or EOFError()
+[2017-10-14 17:32:45,235][test][ERROR ] RemoteError: Traceback (most recent call last):
+[2017-10-14 17:32:45,235][test][ERROR ]   File "<string>", line 1036, in executetask
+[2017-10-14 17:32:45,235][test][ERROR ]   File "<remote exec>", line 12, in _remote_run
+[2017-10-14 17:32:45,235][test][ERROR ]   File "/usr/lib/python2.7/subprocess.py", line 711, in __init__
+[2017-10-14 17:32:45,235][test][ERROR ]     errread, errwrite)
+[2017-10-14 17:32:45,235][test][ERROR ]   File "/usr/lib/python2.7/subprocess.py", line 1343, in _execute_child
+[2017-10-14 17:32:45,236][test][ERROR ]     raise child_exception
+[2017-10-14 17:32:45,236][test][ERROR ] OSError: [Errno 2] No such file or directory
+[2017-10-14 17:32:45,236][test][ERROR ] 
+[2017-10-14 17:32:45,236][test][ERROR ] 
+[2017-10-14 17:32:45,236][ceph_deploy][ERROR ] RuntimeError: Failed to execute command: ceph --version
+
+[2017-10-14 17:32:59,038][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install test
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7fcb0c0dacb0>
+[2017-10-14 17:32:59,038][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7fcb0c5208c0>
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  host                          : ['test']
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:32:59,039][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:32:59,040][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:32:59,041][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts test
+[2017-10-14 17:32:59,041][ceph_deploy.install][DEBUG ] Detecting platform for host test ...
+[2017-10-14 17:33:17,416][test][DEBUG ] connection detected need for sudo
+[2017-10-14 17:33:23,135][test][DEBUG ] connected to host: test 
+[2017-10-14 17:33:23,136][test][DEBUG ] detect platform information from remote host
+[2017-10-14 17:33:23,159][test][DEBUG ] detect machine type
+[2017-10-14 17:33:23,165][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2017-10-14 17:33:23,165][test][INFO  ] installing Ceph on test
+[2017-10-14 17:33:23,165][test][INFO  ] using custom repository location: http://cn.ceph.com/debian-kraken
+[2017-10-14 17:33:23,167][test][INFO  ] Running command: sudo wget -O release.asc http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:33:23,193][test][WARNING] --2017-10-14 17:33:22--  http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:33:24,259][test][WARNING] Resolving cn.ceph.com (cn.ceph.com)... 37.218.240.20, 2a00:c6c0:1:1::1
+[2017-10-14 17:33:24,372][test][WARNING] Connecting to cn.ceph.com (cn.ceph.com)|37.218.240.20|:80... connected.
+[2017-10-14 17:33:24,486][test][WARNING] HTTP request sent, awaiting response... 200 OK
+[2017-10-14 17:33:24,487][test][WARNING] Length: 1645 (1.6K) [text/plain]
+[2017-10-14 17:33:24,487][test][WARNING] Saving to: 'release.asc'
+[2017-10-14 17:33:24,487][test][WARNING] 
+[2017-10-14 17:33:24,487][test][WARNING]      0K .                                                     100%  345M=0s
+[2017-10-14 17:33:24,487][test][WARNING] 
+[2017-10-14 17:33:24,487][test][WARNING] 2017-10-14 17:33:23 (345 MB/s) - 'release.asc' saved [1645/1645]
+[2017-10-14 17:33:24,488][test][WARNING] 
+[2017-10-14 17:33:24,490][test][INFO  ] Running command: sudo apt-key add release.asc
+[2017-10-14 17:33:24,659][test][DEBUG ] OK
+[2017-10-14 17:33:24,660][test][DEBUG ] add deb repo to /etc/apt/sources.list.d/
+[2017-10-14 17:33:24,663][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q update
+[2017-10-14 17:33:25,083][test][DEBUG ] Hit:1 http://mirrors.aliyun.com/ubuntu xenial InRelease
+[2017-10-14 17:33:25,083][test][DEBUG ] Hit:2 http://mirrors.aliyun.com/ubuntu xenial-updates InRelease
+[2017-10-14 17:33:25,083][test][DEBUG ] Hit:3 http://mirrors.aliyun.com/ubuntu xenial-backports InRelease
+[2017-10-14 17:33:25,084][test][DEBUG ] Hit:4 http://mirrors.aliyun.com/ubuntu xenial-security InRelease
+[2017-10-14 17:33:25,247][test][DEBUG ] Hit:5 http://cn.ceph.com/debian-kraken xenial InRelease
+[2017-10-14 17:33:25,462][test][DEBUG ] Hit:6 http://archive.canonical.com/ubuntu xenial InRelease
+[2017-10-14 17:33:25,469][test][DEBUG ] Hit:7 http://archive.ubuntu.com/ubuntu xenial InRelease
+[2017-10-14 17:33:28,088][test][DEBUG ] Reading package lists...
+[2017-10-14 17:33:28,152][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,152][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,152][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,152][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,152][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,153][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,153][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,153][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:33:28,155][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+[2017-10-14 17:33:28,176][test][WARNING] E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+[2017-10-14 17:33:28,177][test][WARNING] E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+[2017-10-14 17:33:28,177][test][ERROR ] RuntimeError: command returned non-zero exit status: 100
+[2017-10-14 17:33:28,177][ceph_deploy][ERROR ] RuntimeError: Failed to execute command: env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+
+[2017-10-14 17:34:33,414][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:34:33,414][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install test
+[2017-10-14 17:34:33,414][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7fc4ca358cb0>
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7fc4ca79e8c0>
+[2017-10-14 17:34:33,415][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  host                          : ['test']
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:34:33,416][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:34:33,417][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:34:33,417][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:34:33,417][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:34:33,417][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:34:33,417][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:34:33,417][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts test
+[2017-10-14 17:34:33,417][ceph_deploy.install][DEBUG ] Detecting platform for host test ...
+[2017-10-14 17:34:45,896][ceph_deploy][ERROR ] KeyboardInterrupt
+
+[2017-10-14 17:34:49,530][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 17:34:49,530][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy install test
+[2017-10-14 17:34:49,530][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  testing                       : None
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7fd947550cb0>
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  stable                        : None
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7fd9479968c0>
+[2017-10-14 17:34:49,531][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  repo                          : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  host                          : ['test']
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  install_common                : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 17:34:49,532][ceph_deploy.cli][INFO  ]  dev                           : master
+[2017-10-14 17:34:49,533][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2017-10-14 17:34:49,533][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2017-10-14 17:34:49,533][ceph_deploy.cli][INFO  ]  release                       : None
+[2017-10-14 17:34:49,533][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2017-10-14 17:34:49,533][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2017-10-14 17:34:49,533][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts test
+[2017-10-14 17:34:49,533][ceph_deploy.install][DEBUG ] Detecting platform for host test ...
+[2017-10-14 17:34:56,491][test][DEBUG ] connection detected need for sudo
+[2017-10-14 17:35:02,287][test][DEBUG ] connected to host: test 
+[2017-10-14 17:35:02,288][test][DEBUG ] detect platform information from remote host
+[2017-10-14 17:35:02,311][test][DEBUG ] detect machine type
+[2017-10-14 17:35:02,316][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2017-10-14 17:35:02,316][test][INFO  ] installing Ceph on test
+[2017-10-14 17:35:02,317][test][INFO  ] using custom repository location: http://cn.ceph.com/debian-kraken
+[2017-10-14 17:35:02,319][test][INFO  ] Running command: sudo wget -O release.asc http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:35:02,344][test][WARNING] --2017-10-14 17:35:01--  http://cn.ceph.com/keys/release.asc
+[2017-10-14 17:35:02,344][test][WARNING] Resolving cn.ceph.com (cn.ceph.com)... 37.218.240.20, 2a00:c6c0:1:1::1
+[2017-10-14 17:35:03,510][test][WARNING] Connecting to cn.ceph.com (cn.ceph.com)|37.218.240.20|:80... connected.
+[2017-10-14 17:35:03,624][test][WARNING] HTTP request sent, awaiting response... 200 OK
+[2017-10-14 17:35:03,624][test][WARNING] Length: 1645 (1.6K) [text/plain]
+[2017-10-14 17:35:03,624][test][WARNING] Saving to: 'release.asc'
+[2017-10-14 17:35:03,624][test][WARNING] 
+[2017-10-14 17:35:03,624][test][WARNING]      0K .                                                     100%  290M=0s
+[2017-10-14 17:35:03,624][test][WARNING] 
+[2017-10-14 17:35:03,625][test][WARNING] 2017-10-14 17:35:02 (290 MB/s) - 'release.asc' saved [1645/1645]
+[2017-10-14 17:35:03,625][test][WARNING] 
+[2017-10-14 17:35:03,627][test][INFO  ] Running command: sudo apt-key add release.asc
+[2017-10-14 17:35:03,796][test][DEBUG ] OK
+[2017-10-14 17:35:03,798][test][DEBUG ] add deb repo to /etc/apt/sources.list.d/
+[2017-10-14 17:35:03,801][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q update
+[2017-10-14 17:35:04,471][test][DEBUG ] Hit:1 http://archive.canonical.com/ubuntu xenial InRelease
+[2017-10-14 17:35:04,785][test][DEBUG ] Hit:2 http://mirrors.aliyun.com/ubuntu xenial InRelease
+[2017-10-14 17:35:04,785][test][DEBUG ] Hit:3 http://mirrors.aliyun.com/ubuntu xenial-updates InRelease
+[2017-10-14 17:35:04,785][test][DEBUG ] Hit:4 http://mirrors.aliyun.com/ubuntu xenial-backports InRelease
+[2017-10-14 17:35:04,793][test][DEBUG ] Hit:5 http://mirrors.aliyun.com/ubuntu xenial-security InRelease
+[2017-10-14 17:35:04,800][test][DEBUG ] Hit:6 http://cn.ceph.com/debian-kraken xenial InRelease
+[2017-10-14 17:35:05,666][test][DEBUG ] Hit:7 http://archive.ubuntu.com/ubuntu xenial InRelease
+[2017-10-14 17:35:08,285][test][DEBUG ] Reading package lists...
+[2017-10-14 17:35:08,300][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,301][test][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,302][test][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2017-10-14 17:35:08,304][test][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+[2017-10-14 17:35:08,325][test][WARNING] E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+[2017-10-14 17:35:08,325][test][WARNING] E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+[2017-10-14 17:35:08,325][test][ERROR ] RuntimeError: command returned non-zero exit status: 100
+[2017-10-14 17:35:08,325][ceph_deploy][ERROR ] RuntimeError: Failed to execute command: env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+
+[2017-10-14 22:49:13,628][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ] Invoked (1.5.38): /usr/bin/ceph-deploy --overwrite-conf config push ceph101 ceph102 ceph103 ceph104
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  username                      : None
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  overwrite_conf                : True
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  subcommand                    : push
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2017-10-14 22:49:13,629][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7f198a047a28>
+[2017-10-14 22:49:13,630][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2017-10-14 22:49:13,630][ceph_deploy.cli][INFO  ]  client                        : ['ceph101', 'ceph102', 'ceph103', 'ceph104']
+[2017-10-14 22:49:13,630][ceph_deploy.cli][INFO  ]  func                          : <function config at 0x7f198a49a8c0>
+[2017-10-14 22:49:13,630][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2017-10-14 22:49:13,630][ceph_deploy.cli][INFO  ]  default_release               : False
+[2017-10-14 22:49:13,630][ceph_deploy][ERROR ] ConfigError: Cannot load config: [Errno 2] No such file or directory: 'ceph.conf'; has `ceph-deploy new` been run in this directory?
+
+[2018-05-21 13:41:57,133][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2018-05-21 13:41:57,152][ceph_deploy.cli][INFO  ] Invoked (2.0.0): /usr/bin/ceph-deploy install ceph105
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  testing                       : None
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7fa2de595b48>
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  stable                        : None
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  default_release               : False
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  username                      : None
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2018-05-21 13:41:57,153][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7fa2de9e3938>
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  repo                          : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  host                          : ['ceph105']
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  install_common                : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2018-05-21 13:41:57,154][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  dev                           : master
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  release                       : None
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2018-05-21 13:41:57,155][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2018-05-21 13:41:57,155][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts ceph105
+[2018-05-21 13:41:57,155][ceph_deploy.install][DEBUG ] Detecting platform for host ceph105 ...
+[2018-05-21 13:41:57,532][ceph105][DEBUG ] connection detected need for sudo
+[2018-05-21 13:41:57,894][ceph105][DEBUG ] connected to host: ceph105 
+[2018-05-21 13:41:57,895][ceph105][DEBUG ] detect platform information from remote host
+[2018-05-21 13:41:57,924][ceph105][DEBUG ] detect machine type
+[2018-05-21 13:41:57,932][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2018-05-21 13:41:57,932][ceph105][INFO  ] installing Ceph on ceph105
+[2018-05-21 13:41:57,932][ceph105][INFO  ] using custom repository location: http://mirrors.aliyun.com/ceph/debian-luminous
+[2018-05-21 13:41:57,935][ceph105][INFO  ] Running command: sudo wget -O release.asc http://mirrors.aliyun.com/ceph/debian-luminous
+[2018-05-21 13:41:57,962][ceph105][WARNING] --2018-05-21 13:41:57--  http://mirrors.aliyun.com/ceph/debian-luminous
+[2018-05-21 13:41:57,962][ceph105][WARNING] Resolving mirrors.aliyun.com (mirrors.aliyun.com)... 202.108.249.217, 202.108.249.216, 202.108.249.223, ...
+[2018-05-21 13:41:57,970][ceph105][WARNING] Connecting to mirrors.aliyun.com (mirrors.aliyun.com)|202.108.249.217|:80... connected.
+[2018-05-21 13:41:58,033][ceph105][WARNING] HTTP request sent, awaiting response... 301 Moved Permanently
+[2018-05-21 13:41:58,033][ceph105][WARNING] Location: http://pub.mirrors.aliyun.com/ceph/debian-luminous/ [following]
+[2018-05-21 13:41:58,034][ceph105][WARNING] --2018-05-21 13:41:58--  http://pub.mirrors.aliyun.com/ceph/debian-luminous/
+[2018-05-21 13:41:59,249][ceph105][WARNING] Resolving pub.mirrors.aliyun.com (pub.mirrors.aliyun.com)... failed: Name or service not known.
+[2018-05-21 13:41:59,249][ceph105][WARNING] wget: unable to resolve host address ‘pub.mirrors.aliyun.com’
+[2018-05-21 13:41:59,249][ceph105][WARNING] command returned non-zero exit status: 4
+[2018-05-21 13:41:59,252][ceph105][INFO  ] Running command: sudo apt-key add release.asc
+[2018-05-21 13:41:59,421][ceph105][WARNING] gpg: no valid OpenPGP data found.
+[2018-05-21 13:41:59,440][ceph105][ERROR ] RuntimeError: command returned non-zero exit status: 2
+[2018-05-21 13:41:59,440][ceph_deploy][ERROR ] RuntimeError: Failed to execute command: apt-key add release.asc
+
+[2018-05-21 13:53:14,789][ceph_deploy.conf][DEBUG ] found configuration file at: /root/.cephdeploy.conf
+[2018-05-21 13:53:14,789][ceph_deploy.cli][INFO  ] Invoked (2.0.0): /usr/bin/ceph-deploy install ceph105
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ] ceph-deploy options:
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  verbose                       : False
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  testing                       : None
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  cd_conf                       : <ceph_deploy.conf.cephdeploy.Conf instance at 0x7f71f3533b48>
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  cluster                       : ceph
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  dev_commit                    : None
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  install_mds                   : False
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  stable                        : None
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  default_release               : False
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  username                      : None
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  adjust_repos                  : True
+[2018-05-21 13:53:14,790][ceph_deploy.cli][INFO  ]  func                          : <function install at 0x7f71f3981938>
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_mgr                   : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_all                   : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  repo                          : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  host                          : ['ceph105']
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_rgw                   : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_tests                 : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  repo_url                      : None
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  ceph_conf                     : None
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_osd                   : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  version_kind                  : stable
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  install_common                : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  overwrite_conf                : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  quiet                         : False
+[2018-05-21 13:53:14,791][ceph_deploy.cli][INFO  ]  dev                           : master
+[2018-05-21 13:53:14,792][ceph_deploy.cli][INFO  ]  nogpgcheck                    : False
+[2018-05-21 13:53:14,792][ceph_deploy.cli][INFO  ]  local_mirror                  : None
+[2018-05-21 13:53:14,792][ceph_deploy.cli][INFO  ]  release                       : None
+[2018-05-21 13:53:14,792][ceph_deploy.cli][INFO  ]  install_mon                   : False
+[2018-05-21 13:53:14,792][ceph_deploy.cli][INFO  ]  gpg_url                       : None
+[2018-05-21 13:53:14,792][ceph_deploy.install][DEBUG ] Installing stable version jewel on cluster ceph hosts ceph105
+[2018-05-21 13:53:14,792][ceph_deploy.install][DEBUG ] Detecting platform for host ceph105 ...
+[2018-05-21 13:53:15,172][ceph105][DEBUG ] connection detected need for sudo
+[2018-05-21 13:53:15,554][ceph105][DEBUG ] connected to host: ceph105 
+[2018-05-21 13:53:15,555][ceph105][DEBUG ] detect platform information from remote host
+[2018-05-21 13:53:15,584][ceph105][DEBUG ] detect machine type
+[2018-05-21 13:53:15,591][ceph_deploy.install][INFO  ] Distro info: Ubuntu 16.04 xenial
+[2018-05-21 13:53:15,591][ceph105][INFO  ] installing Ceph on ceph105
+[2018-05-21 13:53:15,591][ceph105][INFO  ] using custom repository location: http://mirrors.163.com/ceph/debian-luminous
+[2018-05-21 13:53:15,594][ceph105][INFO  ] Running command: sudo wget -O release.asc http://mirrors.163.com/ceph/keys/release.asc
+[2018-05-21 13:53:15,621][ceph105][WARNING] --2018-05-21 13:53:15--  http://mirrors.163.com/ceph/keys/release.asc
+[2018-05-21 13:53:15,735][ceph105][WARNING] Resolving mirrors.163.com (mirrors.163.com)... 59.111.0.251
+[2018-05-21 13:53:15,750][ceph105][WARNING] Connecting to mirrors.163.com (mirrors.163.com)|59.111.0.251|:80... connected.
+[2018-05-21 13:53:15,814][ceph105][WARNING] HTTP request sent, awaiting response... 200 OK
+[2018-05-21 13:53:15,814][ceph105][WARNING] Length: 1645 (1.6K) [application/octet-stream]
+[2018-05-21 13:53:15,814][ceph105][WARNING] Saving to: ‘release.asc’
+[2018-05-21 13:53:15,815][ceph105][WARNING] 
+[2018-05-21 13:53:15,815][ceph105][WARNING]      0K .                                                     100%  147M=0s
+[2018-05-21 13:53:15,815][ceph105][WARNING] 
+[2018-05-21 13:53:15,815][ceph105][WARNING] 2018-05-21 13:53:15 (147 MB/s) - ‘release.asc’ saved [1645/1645]
+[2018-05-21 13:53:15,815][ceph105][WARNING] 
+[2018-05-21 13:53:15,818][ceph105][INFO  ] Running command: sudo apt-key add release.asc
+[2018-05-21 13:53:16,087][ceph105][DEBUG ] OK
+[2018-05-21 13:53:16,089][ceph105][DEBUG ] add deb repo to /etc/apt/sources.list.d/
+[2018-05-21 13:53:16,093][ceph105][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q update
+[2018-05-21 13:53:16,362][ceph105][DEBUG ] Hit:1 http://mirrors.aliyun.com/ubuntu xenial InRelease
+[2018-05-21 13:53:16,363][ceph105][DEBUG ] Hit:2 http://mirrors.aliyun.com/ubuntu xenial-updates InRelease
+[2018-05-21 13:53:16,363][ceph105][DEBUG ] Hit:3 http://mirrors.aliyun.com/ubuntu xenial-backports InRelease
+[2018-05-21 13:53:16,370][ceph105][DEBUG ] Hit:4 http://mirrors.aliyun.com/ubuntu xenial-security InRelease
+[2018-05-21 13:53:16,370][ceph105][DEBUG ] Hit:5 http://mirrors.163.com/ceph/debian-luminous xenial InRelease
+[2018-05-21 13:53:17,085][ceph105][DEBUG ] Hit:6 http://archive.ubuntu.com/ubuntu xenial InRelease
+[2018-05-21 13:53:17,100][ceph105][DEBUG ] Hit:7 http://archive.canonical.com/ubuntu xenial InRelease
+[2018-05-21 13:53:20,569][ceph105][DEBUG ] Reading package lists...
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,683][ceph105][WARNING] W: Target Packages (main/binary-amd64/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,684][ceph105][WARNING] W: Target Packages (main/binary-i386/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,684][ceph105][WARNING] W: Target Packages (main/binary-all/Packages) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,684][ceph105][WARNING] W: Target Translations (main/i18n/Translation-en_US) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,684][ceph105][WARNING] W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list:18 and /etc/apt/sources.list.d/ceph.list:1
+[2018-05-21 13:53:20,686][ceph105][INFO  ] Running command: sudo env DEBIAN_FRONTEND=noninteractive DEBIAN_PRIORITY=critical apt-get --assume-yes -q --no-install-recommends install ceph ceph-osd ceph-mds ceph-mon radosgw
+[2018-05-21 13:53:20,806][ceph105][DEBUG ] Reading package lists...
+[2018-05-21 13:53:21,220][ceph105][DEBUG ] Building dependency tree...
+[2018-05-21 13:53:21,220][ceph105][DEBUG ] Reading state information...
+[2018-05-21 13:53:21,584][ceph105][DEBUG ] The following packages were automatically installed and are no longer required:
+[2018-05-21 13:53:21,584][ceph105][DEBUG ]   libboost-iostreams1.58.0 libboost-random1.58.0 libboost-system1.58.0
+[2018-05-21 13:53:21,584][ceph105][DEBUG ]   libboost-thread1.58.0
+[2018-05-21 13:53:21,585][ceph105][DEBUG ] Use 'sudo apt autoremove' to remove them.
+[2018-05-21 13:53:21,585][ceph105][DEBUG ] The following additional packages will be installed:
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   ceph-base ceph-common ceph-mgr formencode-i18n gdisk libbabeltrace-ctf1
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   libbabeltrace1 libcephfs2 libcurl3 libgoogle-perftools4 libjs-jquery
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   libjs-sphinxdoc libjs-underscore libleveldb1v5 liblttng-ust-ctl2
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   liblttng-ust0 libpython2.7 librados2 libradosstriper1 librbd1 librgw2
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-bs4
+[2018-05-21 13:53:21,585][ceph105][DEBUG ]   python-cephfs python-cffi-backend python-chardet python-cherrypy3
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-cryptography python-dnspython python-enum34 python-flask
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-formencode python-idna python-ipaddress python-itsdangerous
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-jinja2 python-logutils python-mako python-markupsafe python-openssl
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-paste python-pastedeploy python-pastedeploy-tpl python-pecan
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-pkg-resources python-prettytable python-pyasn1 python-rados
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-rbd python-repoze.lru python-requests python-rgw python-routes
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-simplegeneric python-singledispatch python-six python-tempita
+[2018-05-21 13:53:21,586][ceph105][DEBUG ]   python-urllib3 python-waitress python-webob python-webtest python-werkzeug
+[2018-05-21 13:53:21,586][ceph105][DEBUG ] Suggested packages:
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   javascript-common python-cryptography-doc python-cryptography-vectors
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-enum34-doc python-flask-doc python-egenix-mxdatetime
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-jinja2-doc python-beaker python-mako-doc python-openssl-doc
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-openssl-dbg python-pastescript python-pastewebkit libjs-mochikit
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   libapache2-mod-wsgi libapache2-mod-python libapache2-mod-scgi python-pgsql
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-setuptools doc-base python-ndg-httpsclient python-ntlm
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-waitress-doc python-webob-doc python-webtest-doc python-pyquery
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-lxml ipython python-genshi python-greenlet python-redis
+[2018-05-21 13:53:21,587][ceph105][DEBUG ]   python-pylibmc | python-memcache python-werkzeug-doc
+[2018-05-21 13:53:21,588][ceph105][DEBUG ] Recommended packages:
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   ceph-fuse javascript-common python-lxml | python-html5lib python-blinker
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   python-openid python-scgi python-pastescript python-ndg-httpsclient
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   python-pyinotify
+[2018-05-21 13:53:21,588][ceph105][DEBUG ] The following NEW packages will be installed:
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   ceph ceph-base ceph-common ceph-mds ceph-mgr ceph-mon ceph-osd
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   formencode-i18n gdisk libbabeltrace-ctf1 libbabeltrace1 libcephfs2 libcurl3
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   libgoogle-perftools4 libjs-jquery libjs-sphinxdoc libjs-underscore
+[2018-05-21 13:53:21,588][ceph105][DEBUG ]   libleveldb1v5 liblttng-ust-ctl2 liblttng-ust0 libpython2.7 libradosstriper1
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   librgw2 libsnappy1v5 libtcmalloc-minimal4 libunwind8 liburcu4 python-bs4
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-cephfs python-cffi-backend python-chardet python-cherrypy3
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-cryptography python-dnspython python-enum34 python-flask
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-formencode python-idna python-ipaddress python-itsdangerous
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-jinja2 python-logutils python-mako python-markupsafe python-openssl
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-paste python-pastedeploy python-pastedeploy-tpl python-pecan
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-pkg-resources python-prettytable python-pyasn1 python-rados
+[2018-05-21 13:53:21,589][ceph105][DEBUG ]   python-rbd python-repoze.lru python-requests python-rgw python-routes
+[2018-05-21 13:53:21,590][ceph105][DEBUG ]   python-simplegeneric python-singledispatch python-six python-tempita
+[2018-05-21 13:53:21,590][ceph105][DEBUG ]   python-urllib3 python-waitress python-webob python-webtest python-werkzeug
+[2018-05-21 13:53:21,590][ceph105][DEBUG ]   radosgw
+[2018-05-21 13:53:21,590][ceph105][DEBUG ] The following packages will be upgraded:
+[2018-05-21 13:53:21,590][ceph105][DEBUG ]   librados2 librbd1
+[2018-05-21 13:53:22,004][ceph105][DEBUG ] 2 upgraded, 68 newly installed, 0 to remove and 9 not upgraded.
+[2018-05-21 13:53:22,004][ceph105][DEBUG ] Need to get 53.7 MB/56.7 MB of archives.
+[2018-05-21 13:53:22,004][ceph105][DEBUG ] After this operation, 243 MB of additional disk space will be used.
+[2018-05-21 13:53:22,004][ceph105][DEBUG ] Get:1 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-prettytable all 0.7.2-3 [19.6 kB]
+[2018-05-21 13:53:22,005][ceph105][DEBUG ] Get:2 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 libcurl3 amd64 7.47.0-1ubuntu2.8 [187 kB]
+[2018-05-21 13:53:22,036][ceph105][DEBUG ] Get:3 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-repoze.lru all 0.6-6 [11.7 kB]
+[2018-05-21 13:53:22,036][ceph105][DEBUG ] Get:4 http://mirrors.aliyun.com/ubuntu xenial/main amd64 libjs-underscore all 1.7.0~dfsg-1ubuntu1 [46.7 kB]
+[2018-05-21 13:53:22,036][ceph105][DEBUG ] Get:5 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 libjs-sphinxdoc all 1.3.6-2ubuntu1.1 [57.6 kB]
+[2018-05-21 13:53:22,100][ceph105][DEBUG ] Get:6 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-routes all 2.2-1ubuntu2 [85.4 kB]
+[2018-05-21 13:53:22,163][ceph105][DEBUG ] Get:7 http://mirrors.aliyun.com/ubuntu xenial/universe amd64 python-cherrypy3 all 3.5.0-2build1 [1,315 kB]
+[2018-05-21 13:53:22,164][ceph105][DEBUG ] Get:8 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 librbd1 amd64 12.2.5-1xenial [978 kB]
+[2018-05-21 13:53:22,227][ceph105][DEBUG ] Get:9 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-cffi-backend amd64 1.5.2-1ubuntu1 [58.1 kB]
+[2018-05-21 13:53:22,259][ceph105][DEBUG ] Get:10 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-enum34 all 1.1.2-1 [35.8 kB]
+[2018-05-21 13:53:22,274][ceph105][DEBUG ] Get:11 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-idna all 2.0-3 [35.1 kB]
+[2018-05-21 13:53:22,338][ceph105][DEBUG ] Get:12 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-ipaddress all 1.0.16-1 [18.0 kB]
+[2018-05-21 13:53:22,369][ceph105][DEBUG ] Get:13 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-pyasn1 all 0.1.9-1 [45.1 kB]
+[2018-05-21 13:53:22,433][ceph105][DEBUG ] Get:14 http://mirrors.aliyun.com/ubuntu xenial-updates/main amd64 python-cryptography amd64 1.2.3-1ubuntu0.1 [199 kB]
+[2018-05-21 13:53:22,464][ceph105][DEBUG ] Get:15 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-openssl all 0.15.1-2build1 [84.1 kB]
+[2018-05-21 13:53:22,496][ceph105][DEBUG ] Get:16 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-logutils all 0.3.3-5 [16.7 kB]
+[2018-05-21 13:53:22,527][ceph105][DEBUG ] Get:17 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-mako all 1.0.3+ds1-1ubuntu1 [59.6 kB]
+[2018-05-21 13:53:22,528][ceph105][DEBUG ] Get:18 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-simplegeneric all 0.8.1-1 [11.5 kB]
+[2018-05-21 13:53:22,591][ceph105][DEBUG ] Get:19 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-singledispatch all 3.4.0.3-2 [9,848 B]
+[2018-05-21 13:53:22,591][ceph105][DEBUG ] Get:20 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-webob all 1.5.1-1 [61.0 kB]
+[2018-05-21 13:53:22,623][ceph105][DEBUG ] Get:21 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-bs4 all 4.4.1-1 [64.2 kB]
+[2018-05-21 13:53:22,737][ceph105][DEBUG ] Get:22 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-waitress all 0.8.10-1 [54.1 kB]
+[2018-05-21 13:53:22,737][ceph105][DEBUG ] Get:23 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-dnspython all 1.12.0-1 [85.2 kB]
+[2018-05-21 13:53:22,737][ceph105][DEBUG ] Get:24 http://mirrors.aliyun.com/ubuntu xenial/main amd64 formencode-i18n all 1.3.0-0ubuntu5 [3,382 B]
+[2018-05-21 13:53:22,737][ceph105][DEBUG ] Get:25 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-formencode all 1.3.0-0ubuntu5 [69.1 kB]
+[2018-05-21 13:53:22,737][ceph105][DEBUG ] Get:26 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-tempita all 0.5.2-1build1 [13.8 kB]
+[2018-05-21 13:53:22,745][ceph105][DEBUG ] Get:27 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-paste all 1.7.5.1-6ubuntu3 [367 kB]
+[2018-05-21 13:53:22,776][ceph105][DEBUG ] Get:28 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-pastedeploy-tpl all 1.5.2-1 [4,518 B]
+[2018-05-21 13:53:22,776][ceph105][DEBUG ] Get:29 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-pastedeploy all 1.5.2-1 [25.5 kB]
+[2018-05-21 13:53:22,808][ceph105][DEBUG ] Get:30 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-webtest all 2.0.18-1ubuntu1 [27.3 kB]
+[2018-05-21 13:53:22,823][ceph105][DEBUG ] Get:31 http://mirrors.aliyun.com/ubuntu xenial/main amd64 python-pecan all 1.0.2-2ubuntu1 [86.0 kB]
+[2018-05-21 13:53:22,987][ceph105][DEBUG ] Get:32 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 librados2 amd64 12.2.5-1xenial [2,682 kB]
+[2018-05-21 13:53:24,502][ceph105][DEBUG ] Get:33 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 libcephfs2 amd64 12.2.5-1xenial [407 kB]
+[2018-05-21 13:53:24,766][ceph105][DEBUG ] Get:34 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 python-cephfs amd64 12.2.5-1xenial [79.1 kB]
+[2018-05-21 13:53:24,766][ceph105][DEBUG ] Get:35 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 python-rados amd64 12.2.5-1xenial [223 kB]
+[2018-05-21 13:53:24,930][ceph105][DEBUG ] Get:36 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 python-rbd amd64 12.2.5-1xenial [126 kB]
+[2018-05-21 13:53:24,962][ceph105][DEBUG ] Get:37 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 librgw2 amd64 12.2.5-1xenial [1,771 kB]
+[2018-05-21 13:53:25,977][ceph105][DEBUG ] Get:38 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 python-rgw amd64 12.2.5-1xenial [83.1 kB]
+[2018-05-21 13:53:26,040][ceph105][DEBUG ] Get:39 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 libradosstriper1 amd64 12.2.5-1xenial [316 kB]
+[2018-05-21 13:53:26,204][ceph105][DEBUG ] Get:40 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-common amd64 12.2.5-1xenial [12.5 MB]
+[2018-05-21 13:53:33,528][ceph105][DEBUG ] Get:41 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-base amd64 12.2.5-1xenial [3,267 kB]
+[2018-05-21 13:53:35,344][ceph105][DEBUG ] Get:42 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-mgr amd64 12.2.5-1xenial [3,491 kB]
+[2018-05-21 13:53:37,310][ceph105][DEBUG ] Get:43 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-mon amd64 12.2.5-1xenial [4,424 kB]
+[2018-05-21 13:53:39,827][ceph105][DEBUG ] Get:44 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-osd amd64 12.2.5-1xenial [13.8 MB]
+[2018-05-21 13:53:47,651][ceph105][DEBUG ] Get:45 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph amd64 12.2.5-1xenial [5,916 B]
+[2018-05-21 13:53:47,652][ceph105][DEBUG ] Get:46 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 ceph-mds amd64 12.2.5-1xenial [3,527 kB]
+[2018-05-21 13:53:49,668][ceph105][DEBUG ] Get:47 http://mirrors.163.com/ceph/debian-luminous xenial/main amd64 radosgw amd64 12.2.5-1xenial [2,851 kB]
+[2018-05-21 13:53:51,835][ceph105][WARNING] Extracting templates from packages: 42%Extracting templates from packages: 85%Extracting templates from packages: 100%
+[2018-05-21 13:53:51,949][ceph105][DEBUG ] Fetched 53.7 MB in 29s (1,818 kB/s)
+[2018-05-21 13:53:51,965][ceph105][DEBUG ] Selecting previously unselected package liburcu4:amd64.
+[2018-05-21 13:53:52,029][ceph105][DEBUG ] (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 101509 files and directories currently installed.)
+[2018-05-21 13:53:52,029][ceph105][DEBUG ] Preparing to unpack .../liburcu4_0.9.1-3_amd64.deb ...
+[2018-05-21 13:53:52,032][ceph105][DEBUG ] Unpacking liburcu4:amd64 (0.9.1-3) ...
+[2018-05-21 13:53:52,146][ceph105][DEBUG ] Selecting previously unselected package liblttng-ust-ctl2:amd64.
+[2018-05-21 13:53:52,146][ceph105][DEBUG ] Preparing to unpack .../liblttng-ust-ctl2_2.7.1-1_amd64.deb ...
+[2018-05-21 13:53:52,146][ceph105][DEBUG ] Unpacking liblttng-ust-ctl2:amd64 (2.7.1-1) ...
+[2018-05-21 13:53:52,260][ceph105][DEBUG ] Selecting previously unselected package liblttng-ust0:amd64.
+[2018-05-21 13:53:52,260][ceph105][DEBUG ] Preparing to unpack .../liblttng-ust0_2.7.1-1_amd64.deb ...
+[2018-05-21 13:53:52,260][ceph105][DEBUG ] Unpacking liblttng-ust0:amd64 (2.7.1-1) ...
+[2018-05-21 13:53:52,374][ceph105][DEBUG ] Preparing to unpack .../librbd1_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:52,374][ceph105][DEBUG ] Unpacking librbd1 (12.2.5-1xenial) over (10.2.9-0ubuntu0.16.04.1) ...
+[2018-05-21 13:53:52,689][ceph105][DEBUG ] Preparing to unpack .../librados2_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:52,689][ceph105][DEBUG ] Unpacking librados2 (12.2.5-1xenial) over (10.2.9-0ubuntu0.16.04.1) ...
+[2018-05-21 13:53:53,253][ceph105][DEBUG ] Selecting previously unselected package libcephfs2.
+[2018-05-21 13:53:53,254][ceph105][DEBUG ] Preparing to unpack .../libcephfs2_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:53,254][ceph105][DEBUG ] Unpacking libcephfs2 (12.2.5-1xenial) ...
+[2018-05-21 13:53:53,417][ceph105][DEBUG ] Selecting previously unselected package libpython2.7:amd64.
+[2018-05-21 13:53:53,418][ceph105][DEBUG ] Preparing to unpack .../libpython2.7_2.7.12-1ubuntu0~16.04.3_amd64.deb ...
+[2018-05-21 13:53:53,418][ceph105][DEBUG ] Unpacking libpython2.7:amd64 (2.7.12-1ubuntu0~16.04.3) ...
+[2018-05-21 13:53:53,682][ceph105][DEBUG ] Selecting previously unselected package python-cephfs.
+[2018-05-21 13:53:53,682][ceph105][DEBUG ] Preparing to unpack .../python-cephfs_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:53,682][ceph105][DEBUG ] Unpacking python-cephfs (12.2.5-1xenial) ...
+[2018-05-21 13:53:53,796][ceph105][DEBUG ] Selecting previously unselected package python-prettytable.
+[2018-05-21 13:53:53,796][ceph105][DEBUG ] Preparing to unpack .../python-prettytable_0.7.2-3_all.deb ...
+[2018-05-21 13:53:53,796][ceph105][DEBUG ] Unpacking python-prettytable (0.7.2-3) ...
+[2018-05-21 13:53:53,860][ceph105][DEBUG ] Selecting previously unselected package python-rados.
+[2018-05-21 13:53:53,860][ceph105][DEBUG ] Preparing to unpack .../python-rados_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:53,860][ceph105][DEBUG ] Unpacking python-rados (12.2.5-1xenial) ...
+[2018-05-21 13:53:53,974][ceph105][DEBUG ] Selecting previously unselected package python-rbd.
+[2018-05-21 13:53:53,974][ceph105][DEBUG ] Preparing to unpack .../python-rbd_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:53,974][ceph105][DEBUG ] Unpacking python-rbd (12.2.5-1xenial) ...
+[2018-05-21 13:53:54,088][ceph105][DEBUG ] Selecting previously unselected package python-six.
+[2018-05-21 13:53:54,088][ceph105][DEBUG ] Preparing to unpack .../python-six_1.10.0-3_all.deb ...
+[2018-05-21 13:53:54,088][ceph105][DEBUG ] Unpacking python-six (1.10.0-3) ...
+[2018-05-21 13:53:54,152][ceph105][DEBUG ] Selecting previously unselected package python-urllib3.
+[2018-05-21 13:53:54,167][ceph105][DEBUG ] Preparing to unpack .../python-urllib3_1.13.1-2ubuntu0.16.04.1_all.deb ...
+[2018-05-21 13:53:54,167][ceph105][DEBUG ] Unpacking python-urllib3 (1.13.1-2ubuntu0.16.04.1) ...
+[2018-05-21 13:53:54,281][ceph105][DEBUG ] Selecting previously unselected package python-pkg-resources.
+[2018-05-21 13:53:54,281][ceph105][DEBUG ] Preparing to unpack .../python-pkg-resources_20.7.0-1_all.deb ...
+[2018-05-21 13:53:54,281][ceph105][DEBUG ] Unpacking python-pkg-resources (20.7.0-1) ...
+[2018-05-21 13:53:54,395][ceph105][DEBUG ] Selecting previously unselected package python-chardet.
+[2018-05-21 13:53:54,395][ceph105][DEBUG ] Preparing to unpack .../python-chardet_2.3.0-2_all.deb ...
+[2018-05-21 13:53:54,395][ceph105][DEBUG ] Unpacking python-chardet (2.3.0-2) ...
+[2018-05-21 13:53:54,509][ceph105][DEBUG ] Selecting previously unselected package python-requests.
+[2018-05-21 13:53:54,509][ceph105][DEBUG ] Preparing to unpack .../python-requests_2.9.1-3_all.deb ...
+[2018-05-21 13:53:54,509][ceph105][DEBUG ] Unpacking python-requests (2.9.1-3) ...
+[2018-05-21 13:53:54,623][ceph105][DEBUG ] Selecting previously unselected package libcurl3:amd64.
+[2018-05-21 13:53:54,623][ceph105][DEBUG ] Preparing to unpack .../libcurl3_7.47.0-1ubuntu2.8_amd64.deb ...
+[2018-05-21 13:53:54,623][ceph105][DEBUG ] Unpacking libcurl3:amd64 (7.47.0-1ubuntu2.8) ...
+[2018-05-21 13:53:54,737][ceph105][DEBUG ] Selecting previously unselected package librgw2.
+[2018-05-21 13:53:54,737][ceph105][DEBUG ] Preparing to unpack .../librgw2_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:54,737][ceph105][DEBUG ] Unpacking librgw2 (12.2.5-1xenial) ...
+[2018-05-21 13:53:55,051][ceph105][DEBUG ] Selecting previously unselected package python-rgw.
+[2018-05-21 13:53:55,051][ceph105][DEBUG ] Preparing to unpack .../python-rgw_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:55,052][ceph105][DEBUG ] Unpacking python-rgw (12.2.5-1xenial) ...
+[2018-05-21 13:53:55,165][ceph105][DEBUG ] Selecting previously unselected package libbabeltrace1:amd64.
+[2018-05-21 13:53:55,165][ceph105][DEBUG ] Preparing to unpack .../libbabeltrace1_1.3.2-1_amd64.deb ...
+[2018-05-21 13:53:55,166][ceph105][DEBUG ] Unpacking libbabeltrace1:amd64 (1.3.2-1) ...
+[2018-05-21 13:53:55,279][ceph105][DEBUG ] Selecting previously unselected package libbabeltrace-ctf1:amd64.
+[2018-05-21 13:53:55,279][ceph105][DEBUG ] Preparing to unpack .../libbabeltrace-ctf1_1.3.2-1_amd64.deb ...
+[2018-05-21 13:53:55,279][ceph105][DEBUG ] Unpacking libbabeltrace-ctf1:amd64 (1.3.2-1) ...
+[2018-05-21 13:53:55,343][ceph105][DEBUG ] Selecting previously unselected package libtcmalloc-minimal4.
+[2018-05-21 13:53:55,358][ceph105][DEBUG ] Preparing to unpack .../libtcmalloc-minimal4_2.4-0ubuntu5.16.04.1_amd64.deb ...
+[2018-05-21 13:53:55,359][ceph105][DEBUG ] Unpacking libtcmalloc-minimal4 (2.4-0ubuntu5.16.04.1) ...
+[2018-05-21 13:53:55,472][ceph105][DEBUG ] Selecting previously unselected package libunwind8.
+[2018-05-21 13:53:55,472][ceph105][DEBUG ] Preparing to unpack .../libunwind8_1.1-4.1_amd64.deb ...
+[2018-05-21 13:53:55,473][ceph105][DEBUG ] Unpacking libunwind8 (1.1-4.1) ...
+[2018-05-21 13:53:55,586][ceph105][DEBUG ] Selecting previously unselected package libgoogle-perftools4.
+[2018-05-21 13:53:55,587][ceph105][DEBUG ] Preparing to unpack .../libgoogle-perftools4_2.4-0ubuntu5.16.04.1_amd64.deb ...
+[2018-05-21 13:53:55,587][ceph105][DEBUG ] Unpacking libgoogle-perftools4 (2.4-0ubuntu5.16.04.1) ...
+[2018-05-21 13:53:55,700][ceph105][DEBUG ] Selecting previously unselected package libradosstriper1.
+[2018-05-21 13:53:55,701][ceph105][DEBUG ] Preparing to unpack .../libradosstriper1_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:55,701][ceph105][DEBUG ] Unpacking libradosstriper1 (12.2.5-1xenial) ...
+[2018-05-21 13:53:55,864][ceph105][DEBUG ] Selecting previously unselected package ceph-common.
+[2018-05-21 13:53:55,865][ceph105][DEBUG ] Preparing to unpack .../ceph-common_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:55,865][ceph105][DEBUG ] Unpacking ceph-common (12.2.5-1xenial) ...
+[2018-05-21 13:53:57,931][ceph105][DEBUG ] Selecting previously unselected package gdisk.
+[2018-05-21 13:53:57,931][ceph105][DEBUG ] Preparing to unpack .../gdisk_1.0.1-1build1_amd64.deb ...
+[2018-05-21 13:53:57,932][ceph105][DEBUG ] Unpacking gdisk (1.0.1-1build1) ...
+[2018-05-21 13:53:58,045][ceph105][DEBUG ] Selecting previously unselected package libsnappy1v5:amd64.
+[2018-05-21 13:53:58,053][ceph105][DEBUG ] Preparing to unpack .../libsnappy1v5_1.1.3-2_amd64.deb ...
+[2018-05-21 13:53:58,053][ceph105][DEBUG ] Unpacking libsnappy1v5:amd64 (1.1.3-2) ...
+[2018-05-21 13:53:58,166][ceph105][DEBUG ] Selecting previously unselected package libleveldb1v5:amd64.
+[2018-05-21 13:53:58,167][ceph105][DEBUG ] Preparing to unpack .../libleveldb1v5_1.18-5_amd64.deb ...
+[2018-05-21 13:53:58,167][ceph105][DEBUG ] Unpacking libleveldb1v5:amd64 (1.18-5) ...
+[2018-05-21 13:53:58,280][ceph105][DEBUG ] Selecting previously unselected package ceph-base.
+[2018-05-21 13:53:58,296][ceph105][DEBUG ] Preparing to unpack .../ceph-base_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:53:58,303][ceph105][DEBUG ] Unpacking ceph-base (12.2.5-1xenial) ...
+[2018-05-21 13:53:59,018][ceph105][DEBUG ] Selecting previously unselected package python-repoze.lru.
+[2018-05-21 13:53:59,021][ceph105][DEBUG ] Preparing to unpack .../python-repoze.lru_0.6-6_all.deb ...
+[2018-05-21 13:53:59,021][ceph105][DEBUG ] Unpacking python-repoze.lru (0.6-6) ...
+[2018-05-21 13:53:59,085][ceph105][DEBUG ] Selecting previously unselected package libjs-jquery.
+[2018-05-21 13:53:59,100][ceph105][DEBUG ] Preparing to unpack .../libjs-jquery_1.11.3+dfsg-4_all.deb ...
+[2018-05-21 13:53:59,101][ceph105][DEBUG ] Unpacking libjs-jquery (1.11.3+dfsg-4) ...
+[2018-05-21 13:53:59,214][ceph105][DEBUG ] Selecting previously unselected package libjs-underscore.
+[2018-05-21 13:53:59,214][ceph105][DEBUG ] Preparing to unpack .../libjs-underscore_1.7.0~dfsg-1ubuntu1_all.deb ...
+[2018-05-21 13:53:59,215][ceph105][DEBUG ] Unpacking libjs-underscore (1.7.0~dfsg-1ubuntu1) ...
+[2018-05-21 13:53:59,278][ceph105][DEBUG ] Selecting previously unselected package libjs-sphinxdoc.
+[2018-05-21 13:53:59,278][ceph105][DEBUG ] Preparing to unpack .../libjs-sphinxdoc_1.3.6-2ubuntu1.1_all.deb ...
+[2018-05-21 13:53:59,279][ceph105][DEBUG ] Unpacking libjs-sphinxdoc (1.3.6-2ubuntu1.1) ...
+[2018-05-21 13:53:59,392][ceph105][DEBUG ] Selecting previously unselected package python-routes.
+[2018-05-21 13:53:59,392][ceph105][DEBUG ] Preparing to unpack .../python-routes_2.2-1ubuntu2_all.deb ...
+[2018-05-21 13:53:59,393][ceph105][DEBUG ] Unpacking python-routes (2.2-1ubuntu2) ...
+[2018-05-21 13:53:59,506][ceph105][DEBUG ] Selecting previously unselected package python-cherrypy3.
+[2018-05-21 13:53:59,506][ceph105][DEBUG ] Preparing to unpack .../python-cherrypy3_3.5.0-2build1_all.deb ...
+[2018-05-21 13:53:59,507][ceph105][DEBUG ] Unpacking python-cherrypy3 (3.5.0-2build1) ...
+[2018-05-21 13:53:59,921][ceph105][DEBUG ] Selecting previously unselected package python-markupsafe.
+[2018-05-21 13:53:59,921][ceph105][DEBUG ] Preparing to unpack .../python-markupsafe_0.23-2build2_amd64.deb ...
+[2018-05-21 13:53:59,921][ceph105][DEBUG ] Unpacking python-markupsafe (0.23-2build2) ...
+[2018-05-21 13:53:59,985][ceph105][DEBUG ] Selecting previously unselected package python-jinja2.
+[2018-05-21 13:53:59,992][ceph105][DEBUG ] Preparing to unpack .../python-jinja2_2.8-1_all.deb ...
+[2018-05-21 13:53:59,993][ceph105][DEBUG ] Unpacking python-jinja2 (2.8-1) ...
+[2018-05-21 13:54:00,107][ceph105][DEBUG ] Selecting previously unselected package python-cffi-backend.
+[2018-05-21 13:54:00,107][ceph105][DEBUG ] Preparing to unpack .../python-cffi-backend_1.5.2-1ubuntu1_amd64.deb ...
+[2018-05-21 13:54:00,107][ceph105][DEBUG ] Unpacking python-cffi-backend (1.5.2-1ubuntu1) ...
+[2018-05-21 13:54:00,171][ceph105][DEBUG ] Selecting previously unselected package python-enum34.
+[2018-05-21 13:54:00,186][ceph105][DEBUG ] Preparing to unpack .../python-enum34_1.1.2-1_all.deb ...
+[2018-05-21 13:54:00,186][ceph105][DEBUG ] Unpacking python-enum34 (1.1.2-1) ...
+[2018-05-21 13:54:00,300][ceph105][DEBUG ] Selecting previously unselected package python-idna.
+[2018-05-21 13:54:00,300][ceph105][DEBUG ] Preparing to unpack .../python-idna_2.0-3_all.deb ...
+[2018-05-21 13:54:00,300][ceph105][DEBUG ] Unpacking python-idna (2.0-3) ...
+[2018-05-21 13:54:00,414][ceph105][DEBUG ] Selecting previously unselected package python-ipaddress.
+[2018-05-21 13:54:00,414][ceph105][DEBUG ] Preparing to unpack .../python-ipaddress_1.0.16-1_all.deb ...
+[2018-05-21 13:54:00,414][ceph105][DEBUG ] Unpacking python-ipaddress (1.0.16-1) ...
+[2018-05-21 13:54:00,478][ceph105][DEBUG ] Selecting previously unselected package python-pyasn1.
+[2018-05-21 13:54:00,478][ceph105][DEBUG ] Preparing to unpack .../python-pyasn1_0.1.9-1_all.deb ...
+[2018-05-21 13:54:00,478][ceph105][DEBUG ] Unpacking python-pyasn1 (0.1.9-1) ...
+[2018-05-21 13:54:00,592][ceph105][DEBUG ] Selecting previously unselected package python-cryptography.
+[2018-05-21 13:54:00,592][ceph105][DEBUG ] Preparing to unpack .../python-cryptography_1.2.3-1ubuntu0.1_amd64.deb ...
+[2018-05-21 13:54:00,592][ceph105][DEBUG ] Unpacking python-cryptography (1.2.3-1ubuntu0.1) ...
+[2018-05-21 13:54:00,706][ceph105][DEBUG ] Selecting previously unselected package python-openssl.
+[2018-05-21 13:54:00,721][ceph105][DEBUG ] Preparing to unpack .../python-openssl_0.15.1-2build1_all.deb ...
+[2018-05-21 13:54:00,721][ceph105][DEBUG ] Unpacking python-openssl (0.15.1-2build1) ...
+[2018-05-21 13:54:00,835][ceph105][DEBUG ] Selecting previously unselected package python-logutils.
+[2018-05-21 13:54:00,835][ceph105][DEBUG ] Preparing to unpack .../python-logutils_0.3.3-5_all.deb ...
+[2018-05-21 13:54:00,835][ceph105][DEBUG ] Unpacking python-logutils (0.3.3-5) ...
+[2018-05-21 13:54:00,899][ceph105][DEBUG ] Selecting previously unselected package python-mako.
+[2018-05-21 13:54:00,906][ceph105][DEBUG ] Preparing to unpack .../python-mako_1.0.3+ds1-1ubuntu1_all.deb ...
+[2018-05-21 13:54:00,907][ceph105][DEBUG ] Unpacking python-mako (1.0.3+ds1-1ubuntu1) ...
+[2018-05-21 13:54:01,020][ceph105][DEBUG ] Selecting previously unselected package python-simplegeneric.
+[2018-05-21 13:54:01,020][ceph105][DEBUG ] Preparing to unpack .../python-simplegeneric_0.8.1-1_all.deb ...
+[2018-05-21 13:54:01,020][ceph105][DEBUG ] Unpacking python-simplegeneric (0.8.1-1) ...
+[2018-05-21 13:54:01,134][ceph105][DEBUG ] Selecting previously unselected package python-singledispatch.
+[2018-05-21 13:54:01,134][ceph105][DEBUG ] Preparing to unpack .../python-singledispatch_3.4.0.3-2_all.deb ...
+[2018-05-21 13:54:01,134][ceph105][DEBUG ] Unpacking python-singledispatch (3.4.0.3-2) ...
+[2018-05-21 13:54:01,198][ceph105][DEBUG ] Selecting previously unselected package python-webob.
+[2018-05-21 13:54:01,198][ceph105][DEBUG ] Preparing to unpack .../python-webob_1.5.1-1_all.deb ...
+[2018-05-21 13:54:01,198][ceph105][DEBUG ] Unpacking python-webob (1.5.1-1) ...
+[2018-05-21 13:54:01,312][ceph105][DEBUG ] Selecting previously unselected package python-bs4.
+[2018-05-21 13:54:01,312][ceph105][DEBUG ] Preparing to unpack .../python-bs4_4.4.1-1_all.deb ...
+[2018-05-21 13:54:01,312][ceph105][DEBUG ] Unpacking python-bs4 (4.4.1-1) ...
+[2018-05-21 13:54:01,426][ceph105][DEBUG ] Selecting previously unselected package python-waitress.
+[2018-05-21 13:54:01,426][ceph105][DEBUG ] Preparing to unpack .../python-waitress_0.8.10-1_all.deb ...
+[2018-05-21 13:54:01,426][ceph105][DEBUG ] Unpacking python-waitress (0.8.10-1) ...
+[2018-05-21 13:54:01,540][ceph105][DEBUG ] Selecting previously unselected package python-dnspython.
+[2018-05-21 13:54:01,540][ceph105][DEBUG ] Preparing to unpack .../python-dnspython_1.12.0-1_all.deb ...
+[2018-05-21 13:54:01,540][ceph105][DEBUG ] Unpacking python-dnspython (1.12.0-1) ...
+[2018-05-21 13:54:01,603][ceph105][DEBUG ] Selecting previously unselected package formencode-i18n.
+[2018-05-21 13:54:01,604][ceph105][DEBUG ] Preparing to unpack .../formencode-i18n_1.3.0-0ubuntu5_all.deb ...
+[2018-05-21 13:54:01,604][ceph105][DEBUG ] Unpacking formencode-i18n (1.3.0-0ubuntu5) ...
+[2018-05-21 13:54:01,717][ceph105][DEBUG ] Selecting previously unselected package python-formencode.
+[2018-05-21 13:54:01,718][ceph105][DEBUG ] Preparing to unpack .../python-formencode_1.3.0-0ubuntu5_all.deb ...
+[2018-05-21 13:54:01,718][ceph105][DEBUG ] Unpacking python-formencode (1.3.0-0ubuntu5) ...
+[2018-05-21 13:54:01,831][ceph105][DEBUG ] Selecting previously unselected package python-tempita.
+[2018-05-21 13:54:01,831][ceph105][DEBUG ] Preparing to unpack .../python-tempita_0.5.2-1build1_all.deb ...
+[2018-05-21 13:54:01,832][ceph105][DEBUG ] Unpacking python-tempita (0.5.2-1build1) ...
+[2018-05-21 13:54:01,895][ceph105][DEBUG ] Selecting previously unselected package python-paste.
+[2018-05-21 13:54:01,896][ceph105][DEBUG ] Preparing to unpack .../python-paste_1.7.5.1-6ubuntu3_all.deb ...
+[2018-05-21 13:54:01,897][ceph105][DEBUG ] Unpacking python-paste (1.7.5.1-6ubuntu3) ...
+[2018-05-21 13:54:02,111][ceph105][DEBUG ] Selecting previously unselected package python-pastedeploy-tpl.
+[2018-05-21 13:54:02,111][ceph105][DEBUG ] Preparing to unpack .../python-pastedeploy-tpl_1.5.2-1_all.deb ...
+[2018-05-21 13:54:02,111][ceph105][DEBUG ] Unpacking python-pastedeploy-tpl (1.5.2-1) ...
+[2018-05-21 13:54:02,224][ceph105][DEBUG ] Selecting previously unselected package python-pastedeploy.
+[2018-05-21 13:54:02,225][ceph105][DEBUG ] Preparing to unpack .../python-pastedeploy_1.5.2-1_all.deb ...
+[2018-05-21 13:54:02,225][ceph105][DEBUG ] Unpacking python-pastedeploy (1.5.2-1) ...
+[2018-05-21 13:54:02,288][ceph105][DEBUG ] Selecting previously unselected package python-webtest.
+[2018-05-21 13:54:02,296][ceph105][DEBUG ] Preparing to unpack .../python-webtest_2.0.18-1ubuntu1_all.deb ...
+[2018-05-21 13:54:02,296][ceph105][DEBUG ] Unpacking python-webtest (2.0.18-1ubuntu1) ...
+[2018-05-21 13:54:02,409][ceph105][DEBUG ] Selecting previously unselected package python-pecan.
+[2018-05-21 13:54:02,410][ceph105][DEBUG ] Preparing to unpack .../python-pecan_1.0.2-2ubuntu1_all.deb ...
+[2018-05-21 13:54:02,413][ceph105][DEBUG ] Unpacking python-pecan (1.0.2-2ubuntu1) ...
+[2018-05-21 13:54:02,527][ceph105][DEBUG ] Selecting previously unselected package python-werkzeug.
+[2018-05-21 13:54:02,527][ceph105][DEBUG ] Preparing to unpack .../python-werkzeug_0.10.4+dfsg1-1ubuntu1.1_all.deb ...
+[2018-05-21 13:54:02,527][ceph105][DEBUG ] Unpacking python-werkzeug (0.10.4+dfsg1-1ubuntu1.1) ...
+[2018-05-21 13:54:02,640][ceph105][DEBUG ] Selecting previously unselected package ceph-mgr.
+[2018-05-21 13:54:02,656][ceph105][DEBUG ] Preparing to unpack .../ceph-mgr_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:02,656][ceph105][DEBUG ] Unpacking ceph-mgr (12.2.5-1xenial) ...
+[2018-05-21 13:54:03,270][ceph105][DEBUG ] Selecting previously unselected package python-itsdangerous.
+[2018-05-21 13:54:03,271][ceph105][DEBUG ] Preparing to unpack .../python-itsdangerous_0.24+dfsg1-1_all.deb ...
+[2018-05-21 13:54:03,271][ceph105][DEBUG ] Unpacking python-itsdangerous (0.24+dfsg1-1) ...
+[2018-05-21 13:54:03,385][ceph105][DEBUG ] Selecting previously unselected package python-flask.
+[2018-05-21 13:54:03,385][ceph105][DEBUG ] Preparing to unpack .../python-flask_0.10.1-2build2_all.deb ...
+[2018-05-21 13:54:03,385][ceph105][DEBUG ] Unpacking python-flask (0.10.1-2build2) ...
+[2018-05-21 13:54:03,498][ceph105][DEBUG ] Selecting previously unselected package ceph-mon.
+[2018-05-21 13:54:03,499][ceph105][DEBUG ] Preparing to unpack .../ceph-mon_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:03,499][ceph105][DEBUG ] Unpacking ceph-mon (12.2.5-1xenial) ...
+[2018-05-21 13:54:04,414][ceph105][DEBUG ] Selecting previously unselected package ceph-osd.
+[2018-05-21 13:54:04,414][ceph105][DEBUG ] Preparing to unpack .../ceph-osd_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:04,414][ceph105][DEBUG ] Unpacking ceph-osd (12.2.5-1xenial) ...
+[2018-05-21 13:54:06,630][ceph105][DEBUG ] Selecting previously unselected package ceph.
+[2018-05-21 13:54:06,646][ceph105][DEBUG ] Preparing to unpack .../ceph_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:06,647][ceph105][DEBUG ] Unpacking ceph (12.2.5-1xenial) ...
+[2018-05-21 13:54:06,761][ceph105][DEBUG ] Selecting previously unselected package ceph-mds.
+[2018-05-21 13:54:06,761][ceph105][DEBUG ] Preparing to unpack .../ceph-mds_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:06,761][ceph105][DEBUG ] Unpacking ceph-mds (12.2.5-1xenial) ...
+[2018-05-21 13:54:07,526][ceph105][DEBUG ] Selecting previously unselected package radosgw.
+[2018-05-21 13:54:07,526][ceph105][DEBUG ] Preparing to unpack .../radosgw_12.2.5-1xenial_amd64.deb ...
+[2018-05-21 13:54:07,526][ceph105][DEBUG ] Unpacking radosgw (12.2.5-1xenial) ...
+[2018-05-21 13:54:08,040][ceph105][DEBUG ] Processing triggers for libc-bin (2.23-0ubuntu10) ...
+[2018-05-21 13:54:08,041][ceph105][DEBUG ] Processing triggers for man-db (2.7.5-1) ...
+[2018-05-21 13:54:08,905][ceph105][DEBUG ] Processing triggers for ureadahead (0.100.0-19) ...
+[2018-05-21 13:54:09,169][ceph105][DEBUG ] Processing triggers for systemd (229-4ubuntu21.2) ...
+[2018-05-21 13:54:09,383][ceph105][DEBUG ] Setting up liburcu4:amd64 (0.9.1-3) ...
+[2018-05-21 13:54:09,415][ceph105][DEBUG ] Setting up liblttng-ust-ctl2:amd64 (2.7.1-1) ...
+[2018-05-21 13:54:09,430][ceph105][DEBUG ] Setting up liblttng-ust0:amd64 (2.7.1-1) ...
+[2018-05-21 13:54:09,462][ceph105][DEBUG ] Setting up librados2 (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,493][ceph105][DEBUG ] Setting up librbd1 (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,525][ceph105][DEBUG ] Setting up libcephfs2 (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,540][ceph105][DEBUG ] Setting up libpython2.7:amd64 (2.7.12-1ubuntu0~16.04.3) ...
+[2018-05-21 13:54:09,572][ceph105][DEBUG ] Setting up python-cephfs (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,736][ceph105][DEBUG ] Setting up python-prettytable (0.7.2-3) ...
+[2018-05-21 13:54:09,849][ceph105][DEBUG ] Setting up python-rados (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,851][ceph105][DEBUG ] Setting up python-rbd (12.2.5-1xenial) ...
+[2018-05-21 13:54:09,882][ceph105][DEBUG ] Setting up python-six (1.10.0-3) ...
+[2018-05-21 13:54:10,046][ceph105][DEBUG ] Setting up python-urllib3 (1.13.1-2ubuntu0.16.04.1) ...
+[2018-05-21 13:54:10,160][ceph105][DEBUG ] Setting up python-pkg-resources (20.7.0-1) ...
+[2018-05-21 13:54:10,373][ceph105][DEBUG ] Setting up python-chardet (2.3.0-2) ...
+[2018-05-21 13:54:10,788][ceph105][DEBUG ] Setting up python-requests (2.9.1-3) ...
+[2018-05-21 13:54:10,901][ceph105][DEBUG ] Setting up libcurl3:amd64 (7.47.0-1ubuntu2.8) ...
+[2018-05-21 13:54:10,933][ceph105][DEBUG ] Setting up librgw2 (12.2.5-1xenial) ...
+[2018-05-21 13:54:10,964][ceph105][DEBUG ] Setting up python-rgw (12.2.5-1xenial) ...
+[2018-05-21 13:54:10,980][ceph105][DEBUG ] Setting up libbabeltrace1:amd64 (1.3.2-1) ...
+[2018-05-21 13:54:11,011][ceph105][DEBUG ] Setting up libbabeltrace-ctf1:amd64 (1.3.2-1) ...
+[2018-05-21 13:54:11,043][ceph105][DEBUG ] Setting up libtcmalloc-minimal4 (2.4-0ubuntu5.16.04.1) ...
+[2018-05-21 13:54:11,058][ceph105][DEBUG ] Setting up libunwind8 (1.1-4.1) ...
+[2018-05-21 13:54:11,090][ceph105][DEBUG ] Setting up libgoogle-perftools4 (2.4-0ubuntu5.16.04.1) ...
+[2018-05-21 13:54:11,121][ceph105][DEBUG ] Setting up libradosstriper1 (12.2.5-1xenial) ...
+[2018-05-21 13:54:11,153][ceph105][DEBUG ] Setting up ceph-common (12.2.5-1xenial) ...
+[2018-05-21 13:54:11,367][ceph105][DEBUG ] Adding group ceph....done
+[2018-05-21 13:54:11,580][ceph105][DEBUG ] Adding system user ceph....done
+[2018-05-21 13:54:11,581][ceph105][DEBUG ] Setting system user ceph properties....done
+[2018-05-21 13:54:11,581][ceph105][DEBUG ] [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+[2018-05-21 13:54:12,746][ceph105][DEBUG ] Setting up gdisk (1.0.1-1build1) ...
+[2018-05-21 13:54:12,746][ceph105][DEBUG ] Setting up libsnappy1v5:amd64 (1.1.3-2) ...
+[2018-05-21 13:54:12,778][ceph105][DEBUG ] Setting up libleveldb1v5:amd64 (1.18-5) ...
+[2018-05-21 13:54:12,793][ceph105][DEBUG ] Setting up ceph-base (12.2.5-1xenial) ...
+[2018-05-21 13:54:13,057][ceph105][DEBUG ] Setting up python-repoze.lru (0.6-6) ...
+[2018-05-21 13:54:13,171][ceph105][DEBUG ] Setting up libjs-jquery (1.11.3+dfsg-4) ...
+[2018-05-21 13:54:13,186][ceph105][DEBUG ] Setting up libjs-underscore (1.7.0~dfsg-1ubuntu1) ...
+[2018-05-21 13:54:13,218][ceph105][DEBUG ] Setting up libjs-sphinxdoc (1.3.6-2ubuntu1.1) ...
+[2018-05-21 13:54:13,249][ceph105][DEBUG ] Setting up python-routes (2.2-1ubuntu2) ...
+[2018-05-21 13:54:13,413][ceph105][DEBUG ] Setting up python-cherrypy3 (3.5.0-2build1) ...
+[2018-05-21 13:54:13,727][ceph105][DEBUG ] Setting up python-markupsafe (0.23-2build2) ...
+[2018-05-21 13:54:13,891][ceph105][DEBUG ] Setting up python-jinja2 (2.8-1) ...
+[2018-05-21 13:54:14,104][ceph105][DEBUG ] Setting up python-cffi-backend (1.5.2-1ubuntu1) ...
+[2018-05-21 13:54:14,105][ceph105][DEBUG ] Setting up python-enum34 (1.1.2-1) ...
+[2018-05-21 13:54:14,268][ceph105][DEBUG ] Setting up python-idna (2.0-3) ...
+[2018-05-21 13:54:14,482][ceph105][DEBUG ] Setting up python-ipaddress (1.0.16-1) ...
+[2018-05-21 13:54:14,646][ceph105][DEBUG ] Setting up python-pyasn1 (0.1.9-1) ...
+[2018-05-21 13:54:14,810][ceph105][DEBUG ] Setting up python-cryptography (1.2.3-1ubuntu0.1) ...
+[2018-05-21 13:54:15,023][ceph105][DEBUG ] Setting up python-openssl (0.15.1-2build1) ...
+[2018-05-21 13:54:15,237][ceph105][DEBUG ] Setting up python-logutils (0.3.3-5) ...
+[2018-05-21 13:54:15,351][ceph105][DEBUG ] Setting up python-mako (1.0.3+ds1-1ubuntu1) ...
+[2018-05-21 13:54:15,565][ceph105][DEBUG ] Setting up python-simplegeneric (0.8.1-1) ...
+[2018-05-21 13:54:15,679][ceph105][DEBUG ] Setting up python-singledispatch (3.4.0.3-2) ...
+[2018-05-21 13:54:15,792][ceph105][DEBUG ] Setting up python-webob (1.5.1-1) ...
+[2018-05-21 13:54:16,006][ceph105][DEBUG ] Setting up python-bs4 (4.4.1-1) ...
+[2018-05-21 13:54:16,170][ceph105][DEBUG ] Setting up python-waitress (0.8.10-1) ...
+[2018-05-21 13:54:16,185][ceph105][DEBUG ] update-alternatives: using /usr/bin/waitress-serve-python2 to provide /usr/bin/waitress-serve (waitress-serve) in auto mode
+[2018-05-21 13:54:16,399][ceph105][DEBUG ] Setting up python-dnspython (1.12.0-1) ...
+[2018-05-21 13:54:16,613][ceph105][DEBUG ] Setting up formencode-i18n (1.3.0-0ubuntu5) ...
+[2018-05-21 13:54:16,644][ceph105][DEBUG ] Setting up python-formencode (1.3.0-0ubuntu5) ...
+[2018-05-21 13:54:16,858][ceph105][DEBUG ] Setting up python-tempita (0.5.2-1build1) ...
+[2018-05-21 13:54:16,972][ceph105][DEBUG ] Setting up python-paste (1.7.5.1-6ubuntu3) ...
+[2018-05-21 13:54:17,286][ceph105][DEBUG ] Setting up python-pastedeploy-tpl (1.5.2-1) ...
+[2018-05-21 13:54:17,317][ceph105][DEBUG ] Setting up python-pastedeploy (1.5.2-1) ...
+[2018-05-21 13:54:17,481][ceph105][DEBUG ] Setting up python-webtest (2.0.18-1ubuntu1) ...
+[2018-05-21 13:54:17,645][ceph105][DEBUG ] Setting up python-pecan (1.0.2-2ubuntu1) ...
+[2018-05-21 13:54:17,645][ceph105][DEBUG ] update-alternatives: using /usr/bin/gunicorn_pecan-python2 to provide /usr/bin/gunicorn_pecan (gunicorn_pecan) in auto mode
+[2018-05-21 13:54:17,645][ceph105][DEBUG ] update-alternatives: using /usr/bin/pecan-python2 to provide /usr/bin/pecan (pecan) in auto mode
+[2018-05-21 13:54:17,909][ceph105][DEBUG ] Setting up python-werkzeug (0.10.4+dfsg1-1ubuntu1.1) ...
+[2018-05-21 13:54:18,173][ceph105][DEBUG ] Setting up ceph-mgr (12.2.5-1xenial) ...
+[2018-05-21 13:54:18,787][ceph105][DEBUG ] Setting up python-itsdangerous (0.24+dfsg1-1) ...
+[2018-05-21 13:54:18,901][ceph105][DEBUG ] Setting up python-flask (0.10.1-2build2) ...
+[2018-05-21 13:54:19,065][ceph105][DEBUG ] Setting up ceph-mon (12.2.5-1xenial) ...
+[2018-05-21 13:54:19,679][ceph105][DEBUG ] Setting up ceph-osd (12.2.5-1xenial) ...
+[2018-05-21 13:54:20,794][ceph105][DEBUG ] Setting up ceph (12.2.5-1xenial) ...
+[2018-05-21 13:54:20,795][ceph105][DEBUG ] Setting up ceph-mds (12.2.5-1xenial) ...
+[2018-05-21 13:54:21,409][ceph105][DEBUG ] Setting up radosgw (12.2.5-1xenial) ...
+[2018-05-21 13:54:22,274][ceph105][DEBUG ] Processing triggers for libc-bin (2.23-0ubuntu10) ...
+[2018-05-21 13:54:22,290][ceph105][DEBUG ] Processing triggers for ureadahead (0.100.0-19) ...
+[2018-05-21 13:54:22,604][ceph105][DEBUG ] Processing triggers for systemd (229-4ubuntu21.2) ...
+[2018-05-21 13:54:25,324][ceph105][INFO  ] Running command: sudo ceph --version
+[2018-05-21 13:54:25,494][ceph105][DEBUG ] ceph version 12.2.5 (cad919881333ac92274171586c827e01f554a70a) luminous (stable)
